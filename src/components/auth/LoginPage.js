@@ -6,8 +6,8 @@ export default class LoginPage extends React.Component{
     super();
     this.state = { user: null };
     this.widget = new OktaSignIn({
-      baseUrl: 'https://dev-997102.oktapreview.com',
-      clientId: '4W70TiB8idkMkhVlY1KG',
+      baseUrl: 'https://dev-851330.oktapreview.com',
+      clientId: '0oabt3hz5lj54gZQU0h7',
       redirectUri: 'http://localhost:3000'
     });
 
